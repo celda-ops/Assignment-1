@@ -1,14 +1,27 @@
+html{background-color: #fec47f;}
 
-p{ color:#666666;
+p{ color:#CC7722;
 	font-family: Helvetica, Arial, sans-serif; 
-	font-size: .8em;
+	font-size: 1em;
+  
 }
 h1 {
     font-family: Georgia, Times New Roman, serif;
+    display:block;
+    background-color: #CC7722;
+}
+
+#welcome{
+    color:#f8f0e3;
+    text-align: center;
+    padding:0;
+    width: 80%;
+    margin: 0 auto;
 }
 
 #container{ text-align: center;
 }
+
 
 #nav {
     padding: 0;
@@ -16,15 +29,14 @@ h1 {
 }
 
 #nav li {
-    margin: 0;
-    padding: 0;
+   
 	border-bottom: 1px solid #ccc;
 	text-decoration: none;
 }
 
 #nav a:link, a:visited {
 	display:block;
-    color: #ffffff;
+    color: #f8f0e3;
     background-color: #CC7722;
     font-weight: bold;
     text-align:center;
@@ -37,10 +49,10 @@ h1 {
     background-color: indianred;
 }
 
-.joke {
+
+.joke{
 
 	font-weight: bold;
 	font-style: italic;
 	font-size: 1.5em;
 }
-
