@@ -1,12 +1,12 @@
 html{background-color: #fec47f;}
 
 p{ color:#CC7722;
-	font-family: Helvetica, Arial, sans-serif; 
+	font-family: "Merriweather Sans", Helvetica, Arial, sans-serif; 
 	font-size: 1em;
   
 }
 h1 {
-    font-family: Georgia, Times New Roman, serif;
+    font-family: "Limelight", Georgia, Times New Roman, serif;
     display:block;
     background-color: #CC7722;
 }
