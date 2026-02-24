@@ -11,6 +11,25 @@ h1 {
     background-color: #CC7722;
 }
 
+img{
+  width:100%;
+  float: right;
+  margin-right:2px;
+}
+.description{
+    float:left;
+}
+
+.container{
+    
+}
+
+.me{
+  display:flex;
+  flex-flow:row;
+  background-color: lightskyblue;
+}
+
 #welcome {
     color:#f8f0e3;
     text-align: center;
@@ -19,7 +38,7 @@ h1 {
     margin: 0 auto;
 }
 
- {
+.wrapper{
     display: flex;
     flex-flow: row wrap;
     font-weight: bold;
@@ -36,6 +55,7 @@ h1 {
    
 	border-bottom: 1px solid #ccc;
 	text-decoration: none;
+    list-style-type: none;
 }
 
 #nav a:link, a:visited {
