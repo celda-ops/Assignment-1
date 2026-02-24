@@ -11,21 +11,23 @@ h1 {
     background-color: #CC7722;
 }
 
+
 img{
   width:100%;
-  float: right;
+  height: 800px;
+  float:right;
   margin-right:2px;
 }
-.description{
-    float:left;
-}
 
-.container{
-    
-}
 
+@media(min-width:700px){
+.navigation{
+  flex-flow: row wrap;
+  justify-content: flex-end;
+
+}
 .me{
-  display:flex;
+  display:flex-end;
   flex-flow:row;
   background-color: lightskyblue;
 }
@@ -34,21 +36,15 @@ img{
     color:#f8f0e3;
     text-align: center;
     padding:0;
-    width: 80%;
+    width: 50%;
     margin: 0 auto;
-}
-
-.wrapper{
-    display: flex;
-    flex-flow: row wrap;
-    font-weight: bold;
-    text-align: center;
 }
 
 
 #nav {
     padding: 0;
 	list-style-type: none;
+    text-align: center;
 }
 
 #nav li {
@@ -56,6 +52,7 @@ img{
 	border-bottom: 1px solid #ccc;
 	text-decoration: none;
     list-style-type: none;
+    text-align: center;
 }
 
 #nav a:link, a:visited {
