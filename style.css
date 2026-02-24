@@ -11,27 +11,25 @@ h1 {
     background-color: #CC7722;
 }
 
+body{
+    text-align: center;
+}
 
 img{
-  width:100%;
-  height: 800px;
-  float:right;
+  width: 50%;
+  height:;
+  display: block;
   margin-right:2px;
+  float: right;
 }
 
-
-@media(min-width:700px){
-.navigation{
-  flex-flow: row wrap;
-  justify-content: flex-end;
+.me{ 
+    display: flex;
+    background-color: skyblue;
+    flex-flow: row wrap;
+    text-align: left;
 
 }
-.me{
-  display:flex-end;
-  flex-flow:row;
-  background-color: lightskyblue;
-}
-
 #welcome {
     color:#f8f0e3;
     text-align: center;
@@ -41,13 +39,13 @@ img{
 }
 
 
-#nav {
+.nav {
     padding: 0;
 	list-style-type: none;
     text-align: center;
 }
 
-#nav li {
+.nav li {
    
 	border-bottom: 1px solid #ccc;
 	text-decoration: none;
@@ -55,7 +53,7 @@ img{
     text-align: center;
 }
 
-#nav a:link, a:visited {
+.nav a:link, a:visited {
 	display:block;
     color: #f8f0e3;
     background-color: #CC7722;
@@ -66,14 +64,31 @@ img{
     font-family: Helvetica, Arial, sans-serif;
 }
 
-#nav a:hover, a:active {
+.nav a:hover, a:active {
     background-color: indianred;
 }
-
 
 .joke{
 
 	font-weight: bold;
 	font-style: italic;
 	font-size: 1.5em;
+}
+
+
+
+@media (min-width: 800px){
+    img{
+  width:50%;
+  height:200px;
+  margin-right:10px;
+}
+
+.nav{
+    width:50%;
+    display:flex;
+    justify-content: center;
+}
+
+
 }
