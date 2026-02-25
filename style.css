@@ -1,94 +1,84 @@
-html{background-color: #fec47f;}
-
-p{ color:#CC7722;
-	font-family: "Merriweather", Helvetica, Arial, sans-serif; 
-	font-size: 1em;
-  
+html{
+    background-color: #fec47f;
 }
-h1 {
+
+h1{
+
     font-family: "Limelight", Georgia, Times New Roman, serif;
     display:block;
     background-color: #CC7722;
+    margin: auto;
+    width: 50%;
+    color: white;
 }
-
 body{
     text-align: center;
+    color:#CC7722;
+    font-family: "Merriweather", Helvetica, Arial, sans-serif; 
+    font-size: 1em;
+
 }
 
-img{
-  width: 50%;
-  height:;
-  display: block;
-  margin-right:2px;
-  float: right;
-}
-
-.me{ 
-    display: flex;
-    background-color: skyblue;
-    flex-flow: row wrap;
+.me{
+    background-color: lightskyblue;
     text-align: left;
-
 }
-#welcome {
-    color:#f8f0e3;
-    text-align: center;
-    padding:0;
+
+#cam{
+    display: block;
     width: 50%;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
 }
-
 
 .nav {
-    padding: 0;
-	list-style-type: none;
-    text-align: center;
+    background-color: greenyellow;
 }
 
-.nav li {
-   
-	border-bottom: 1px solid #ccc;
-	text-decoration: none;
-    list-style-type: none;
-    text-align: center;
+.rank{
+    background-color: pink;
+    border-top: 1px;
 }
 
-.nav a:link, a:visited {
-	display:block;
-    color: #f8f0e3;
+#joke{
+    color: white;
+    display: block;
     background-color: #CC7722;
-    font-weight: bold;
-    text-align:center;
+}
+
+h3 {
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0; 
+    display: block;
+}
+
+a{
     text-decoration: none;
-    padding: 4px;
-    font-family: Helvetica, Arial, sans-serif;
+
 }
 
-.nav a:hover, a:active {
-    background-color: indianred;
-}
+.wrapper{
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: Bold;
+  text-align: center;
 
-.joke{
+@media(min-width: 800px){
 
-	font-weight: bold;
-	font-style: italic;
-	font-size: 1.5em;
-}
-
-
-
-@media (min-width: 800px){
-    img{
-  width:50%;
-  height:200px;
-  margin-right:10px;
-}
-
-.nav{
+img{
     width:50%;
-    display:flex;
-    justify-content: center;
+    margin-right:10px;
+    justify-content: flex-end;
+    float: right;
 }
 
+}
 
+#description{
+float: left;
 }
