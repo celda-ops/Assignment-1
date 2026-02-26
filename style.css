@@ -32,7 +32,7 @@ body{
     margin-top: 10px;
 }
 
-.nav {
+.navigation {
     background-color: greenyellow;
     text-align: center;
     display: block;
@@ -86,7 +86,7 @@ a{
         flex: 3 0px;
     }
 
-  .nav{
+  .navigation{
         order:1;
     }
   .me{
@@ -103,5 +103,15 @@ a{
 
 @media(max-width: 800px){
     text-align: center;
+
+img {
+    width:50%;
+  margin-right:10px;
+}
+
+.first {
+  
+}
+
 }
 
