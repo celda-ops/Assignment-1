@@ -34,7 +34,7 @@ body{
 
 .nav {
     background-color: greenyellow;
-    text-align: ;
+    text-align: center;
 }
 
 .rank{
@@ -93,14 +93,10 @@ img{
     order: 3;
   }
 
-}
-
 body {
   padding: 2em;
 }
 
-
-}
 
 #description{
 
